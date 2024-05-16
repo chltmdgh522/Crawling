@@ -15,9 +15,9 @@ driver.get('https://www.instagram.com/')
 time.sleep(2)  # 창이 다 뜰때가지 기다려야됨
 
 e = driver.find_element(By.CSS_SELECTOR, 'input[name="username"]')
-e.send_keys('csh_crawling_test')
+e.send_keys('')
 e = driver.find_element(By.CSS_SELECTOR, 'input[name="password"]')
-e.send_keys("qkek@@0312")
+e.send_keys("")
 e.send_keys(Keys.ENTER)  # 로그인
 
 time.sleep(4)
