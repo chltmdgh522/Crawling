@@ -20,7 +20,7 @@ image = soup.select('#img_chart_area')[0] #이미지   근데 이미지 다운 �
 print(image['src']) # 이미지 경로
 
 # 이미지를 저장할 디렉토리 경로
-save_dir = 'C:/Users/chltm/PycharmProjects/pythonCrawling/practice/img'
+save_dir = '/onlineclass/img'
 
 # 디렉토리가 존재하지 않으면 생성
 os.makedirs(save_dir, exist_ok=True)
